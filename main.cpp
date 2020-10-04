@@ -1,8 +1,19 @@
 
+/*!
+ * @mainpage
+ *  \brief     Stack
+ *  \author    Michael Pavlov
+ *  \author    Mikhail Pavlov
+ *  \version   C++20
+ *  \date      10.2020
+ *  \pre       First initialize the system.
+ *  \bug       No
+ *  \warning
+ *  \copyright GNU Public License.
+ */
 #include <cstdio>
-#include <cassert>
 
-#include "Stack.h"
+
 #include "Tests.h"
 
 #define DIE printf("ERROR on line %d\n", __LINE__)
@@ -10,7 +21,7 @@
 
 int main() {
     AllTests();
-    Stack<double> stk = {};
+    /*Stack<double> stk = {};
     stk = Stack<double>(10);
     assert(stk.StackError());
     stk.push(100) asserted;
@@ -19,6 +30,6 @@ int main() {
     stk.pop() == 200 asserted;
 
     stk.Destruct();
-
+*/
     return 0;
 }
