@@ -6,8 +6,7 @@
 #include "Tests.h"
 
 void First_test(){
-    Stack<int> stk;
-    stk = Stack<int>(5);
+    Stack<int> stk = Stack<int>(5);
     stk.push(2);
     stk.push(4);
     assert(stk[1] == 4);
