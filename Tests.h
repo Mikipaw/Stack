@@ -28,16 +28,10 @@ void Second_test();
 void Third_test();
 
 /*!
- * @test Third_test().
+ * @test Fourth_test().
  * @brief Test checks stack with doubles.
  */
 void Fourth_test();
-
-/*!
- * @test Third_test().
- * @brief Test checks stack with strings.
- */
-void Fifth_test();
 
 
 
